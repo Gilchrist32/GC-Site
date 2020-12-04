@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf=8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Team</title>
+        <link rel="stylesheet" type="text/css" href="css/team.css"/>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <!--using FontAwesome-->
+        <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossororigin="anonymous"></script>
+    </head>
+    <body>
+        <section>
+            <!--navigation-->
+            <nav>
+                <!--logo-->
+                <a href="index.html" class="logo">GC Site</a>
+                <!--menu-->
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="team.html">Team</a></li>
+                </ul>
+                <!--bar-->
+                <div class="toggle"></div>
+            </nav>
+            
+            <!--team-->
+            <section class="team-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title">
+                            <h1>Our Team</h1>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="team-item">
+                            <div class="item">
+                                <img src="team/josh.jpg" alt="team">
+                                <div class="inner">
+                                    <div class="info">
+                                        <h5>Joshua A. Galit</h5>
+                                        <p>Full Stack Developer</p>
+                                        <div class="social-links">
+                                            <a href=""><span class="fa fa-facebook"></span></a>
+                                            <a href=""><span class="fa fa-instagram"></span></a>
+                                            <a href=""><span class="fa fa-twitter"></span></a>
+                                            <a href=""><span class="fa fa-github"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="team/veo.jpg" alt="team">
+                                <div class="inner">
+                                    <div class="info">
+                                        <h5>Jerome Joseph Villaruel</h5>
+                                        <p>Full Stack Developer</p>
+                                        <div class="social-links">
+                                            <a href=""><span class="fa fa-facebook"></span></a>
+                                            <a href=""><span class="fa fa-instagram"></span></a>
+                                            <a href=""><span class="fa fa-twitter"></span></a>
+                                            <a href=""><span class="fa fa-github"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="team/gil.jpg" alt="team">
+                                <div class="inner">
+                                    <div class="info">
+                                        <h5>Gilchrist A. Calunia</h5>
+                                        <p>Frontend Developer</p>
+                                        <div class="social-links">
+                                            <a href=""><span class="fa fa-facebook"></span></a>
+                                            <a href=""><span class="fa fa-instagram"></span></a>
+                                            <a href=""><span class="fa fa-twitter"></span></a>
+                                            <a href=""><span class="fa fa-github"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        <!--Footer-->
+        <footer>
+            <p>GC Site</p>
+            <p>I am a developer and also a Designer.
+                If you have asany Project or if you want make a software for business
+                contact me.</p>
+        <!--social-->
+        <div class="social-icons">
+            <a href="https://www.facebook.com/gilchrist.calunia"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/gilchristcalunia"><i class="fab fa-instagram"></i></a>
+            <a href="https://github.com/Gilchrist32"><i class="fab fa-github"></i></a>
+        </div>
+        <!--copyright-->
+        <p class="copyright">@ Copyright 2020 by GC Site</p>
+        </footer>
+        <!--attached social bar-->
+        <div class="a-social-b">
+            <a href="https://www.facebook.com/gilchrist.calunia"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/gilchristcalunia"><i class="fab fa-instagram"></i></a>
+            <a href="https://github.com/Gilchrist32"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+        <!--JQuery-->
+<script type="text/javascript" src="js/Jquery.js"></script>
+        <script type="text/javascript">
+        $(document).ready(function(){
+            $('.toggle').click(function(){
+                $('.toggle').toggleClass('active')
+                $('nav').toggleClass('active')
+            })
+        })
+        </script>
+    </body>
+</html>

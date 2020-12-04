@@ -1,0 +1,119 @@
+<!DOCTYPE HTML>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Contact Form</title>
+        <link rel="stylesheet" type="text/css" href="css/constyle.css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+        <!--using FontAwesome-->
+        <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossororigin="anonymous"></script>
+    </head>
+    <body><!--navigation-->
+        <nav>
+            <!--logo-->
+            <a href="index.html" class="logo">GC Site</a>
+            <!--menu-->
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="#">Team</a></li>
+            </ul>
+            <!--bar-->
+            <div class="toggle"></div>
+        </nav>
+       
+        <!---Contact Form-->
+        <section class="contact">
+            <div class="content">
+                <h2>Contact Us</h2>
+                <p>We support more than 10 million customers around the world from osomware. <br>
+                Feel free to contact us. Just select your preferred channel and send us a  message.
+                We'll do everything we can to respond quickly.</p>
+            </div>
+            <div class="container">
+                <div class="contactInfo">
+                    <div class="box">
+                        <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                            <div class="text">
+                                <h3>Address</h3>
+                                <p>Tomas Oppus, <br> Southern Leyte, <br>6605</p>
+                            </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon"><i class="fa fa-mobile" aria-hidden="true"></i></div>
+                            <div class="text">
+                                <h3>Phone</h3>
+                                <p>0936-565-7801</p>
+                            </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+                            <div class="text">
+                                <h3>Email</h3>
+                                <p>calunia32@gmail.com</p>
+                            </div>
+                    </div>
+                </div>
+                <div class="contactForm">
+                    <form>
+                        <h2>Send Message</h2>
+                        <div class="inputBox">
+                            <input type="text" name="" required="required">
+                            <span>Full Name</span>
+                        </div>
+                        <div class="inputBox">
+                            <input type="text" name="" required="required">
+                            <span>Email</span>
+                        </div>
+                        <div class="inputBox">
+                            <textarea required="required"></textarea>
+                            <span>Type your Message....</span>
+                        </div>
+                        <div class="inputBox">
+                            <input type="submit" name="" value="Send">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>GC Site</p> <br>
+            <p>I am a developer and also a Designer.
+                If you have asany Project or if you want make a software for business
+                contact me.</p>
+        <!--social-->
+        <div class="social-icons">
+            <a href="https://www.facebook.com/gilchrist.calunia"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/gilchristcalunia"><i class="fab fa-instagram"></i></a>
+            <a href="https://github.com/Gilchrist32"><i class="fab fa-github"></i></a>
+        </div>
+        <!--copyright-->
+        <p class="copyright">@ Copyright 2020 by GC Site</p>
+        </footer>
+        <!--attached social bar-->
+        <div class="a-social-b">
+            <a href="https://www.facebook.com/gilchrist.calunia"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/gilchristcalunia"><i class="fab fa-instagram"></i></a>
+            <a href="https://github.com/Gilchrist32"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+        <!--JQuery-->
+<script type="text/javascript" src="js/Jquery.js"></script>
+        <script type="text/javascript">
+        $(document).ready(function(){
+            $('.toggle').click(function(){
+                $('.toggle').toggleClass('active')
+                $('nav').toggleClass('active')
+            })
+        })
+        </script>
+    </body>
+</html>
